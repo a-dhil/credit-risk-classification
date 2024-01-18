@@ -9,26 +9,27 @@
 * Generally the stages of machine learning include preprocessing, train, validate and predict. In this data the divided into features and target and then split in train and test model. Then followed by creating logistic regression model on original and resampled data.
 
 * LogisticRegression() method was used to create a classification model to predict binary outcome .
-## Results
 
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
+## Results
 
 * Machine Learning Model 1:
   * Description of Model 1 Accuracy, Precision, and Recall scores.
-  * Accuracy Sore: 
-  * Precision Score:
-  * Recall Score:
+  * Accuracy Sore: 90%
+  * Precision Score: 94% for helathy loans(0's), 82% for high-risk loans (1's)
+  * Recall Score: 92% for 0's and 87% for 1's
 
 
 * Machine Learning Model 2:
   * Description of Model 2 Accuracy, Precision, and Recall scores.
-  * Accuracy Sore
-  * Precision Score
-  * Recall Score
+  * Accuracy Sore: 93%
+  * Precision Score: 99% for 0's, 83 % for 1's
+  * Recall Score: 91% for 0's , 97% for 1's
+
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
 * Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
+Based on these results, Model 2 outperforms model 1 in terms of accuracy, precision recall for both the classes.
 
-If you do not recommend any of the models, please justify your reasoning.
+* Does performance depend on the problem we are trying to solve? 
+  Model 2 apprears to be better choice due to its superior performance in correcly identifying high-risk loans with a recall score of 97% on bad loans.
+
